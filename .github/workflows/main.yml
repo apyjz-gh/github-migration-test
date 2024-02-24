@@ -1,0 +1,8 @@
+on: [pull_request, push]
+
+jobs:
+  print-env:
+    runs-on: linux
+    steps:
+    - run: |
+        env
