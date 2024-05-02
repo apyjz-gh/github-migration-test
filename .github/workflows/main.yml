@@ -5,4 +5,5 @@ jobs:
     runs-on: linux
     steps:
     - run: |
-        env
+        git remove -v
+        git branch
