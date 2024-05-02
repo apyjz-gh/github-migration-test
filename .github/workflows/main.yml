@@ -2,7 +2,7 @@ on: [pull_request, push]
 
 jobs:
   print-env:
-    runs-on: podman
+    runs-on: docker
     steps:
     - run: |
         git remove -v
